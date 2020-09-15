@@ -1,0 +1,144 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+
+body {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+progress {
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 70px 65px 70px 65px;
+}
+
+.nav {
+  background-color: #e2e2e2;
+}
+
+.menu {
+  text-align: center;
+}
+
+.logo {
+  padding-bottom: 75px;
+}
+
+.face {
+  border-radius: 500px;
+  border: 0;
+}
+
+.item {
+  padding-bottom: 35px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: left;
+}
+
+span.item-text {
+  font-weight: 300;
+  text-align: right;
+}
+
+.programming .title,
+.languages .title {
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.skills .item .title,
+.languages .item {
+  font-weight: 300;
+  font-size: 25px;
+  text-transform: none;
+}
+
+.programming .title,
+.languages .title {
+  padding-top: 30px;
+}
+
+.header {
+  background-color: #f1f0f0;
+  width: 100%;
+}
+
+.header .title {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 70px;
+  letter-spacing: 5px;
+  font-family: "Lato", sans-serif;
+}
+
+.surname {
+  color: #0075ff;
+}
+
+.suptitle {
+  font-size: 25px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.block {
+  width: 20px;
+  height: 20px;
+  background-color: #0075ff;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+.main {
+  font-size: 25px;
+}
+
+.content-block {
+  padding-bottom: 105px;
+}
+
+.content-block .title {
+  display: flex;
+  align-items: center;
+  padding-bottom: 25px;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  color: #0075ff;
+}
+
+.content-block .text {
+  padding-left: 35px;
+}
